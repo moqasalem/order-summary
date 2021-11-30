@@ -25,8 +25,9 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
-
+Destop screen
 ![Desktop screenshot](screenshot/Desktop.JPG)
+Moblie screen
 ![Moblie screenshot](screenshot/Mobile.JPG)
 
 
