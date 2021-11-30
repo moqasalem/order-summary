@@ -1,0 +1,104 @@
+@import url("https://fonts.google.com/specimen/Red+Hat+Display");
+
+
+:root{
+    --Pale-blue: hsl(225, 100%, 94%) ;
+    --Bright-blue: hsl(245, 75%, 52%);
+    ---Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+body{
+    background-color:  #D6E1FF;
+    font-size: 16 px;
+    font-family:"Red Hat Display";
+}
+
+main{
+    min-height: 70vh;
+    display: grid;
+    place-items: center;
+    margin-top: 5vh;
+}
+.order-summary{
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width:360px;
+    height: auto;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.img-hero{
+    object-fit: cover;
+    width:100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+h2{
+    margin-top:2rem;
+    margin-bottom: 1rem;
+    font-weight: 900;
+}
+
+p{
+    color:#9598A4;
+}
+
+.change{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1rem 2rem;
+    background-color: #F8F9FE;
+    align-items: center;
+    
+}
+strong{
+    font-weight: bold;
+    color:#222E4A;
+}
+.payment {
+    background-color: var( --Bright-blue);
+    color: white;
+    font-weight: 700;
+    display: block;
+    padding: 0.5rem 1rem;
+    margin: 1rem auto;
+    border-radius: 5%;
+    width: 80%;
+}
+
+.Cancel-Order{
+    background-color: white;
+    border:none;
+    color:#7A80A4;
+    margin-bottom: 2rem;
+}
+
+.change a:hover{
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.payment:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.Cancel-Order:hover{
+    cursor: pointer;
+}
+
+@media screen and(max-width:375px) {
+
+    .order-summary{
+       
+    }
+}
