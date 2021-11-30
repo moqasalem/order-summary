@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop screenshot](screenshot/Desktop.jpg)
-![Moblie screenshot](screenshot/Mobile.jpg)
+![Desktop screenshot](screenshot/Desktop.JPG)
+![Moblie screenshot](screenshot/Mobile.JPG)
 
 
 
